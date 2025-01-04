@@ -47,7 +47,7 @@ services:
             address: "${SIP_TRUNK_HOST}"  # Host do seu provedor
     ports:
       - "5060:5060"  # SIP
-      - "10000-20000:10000-20000"  # RTP
+      - "10000-10002:10000-10002"  # RTP
     networks:
       - livekit_network
 
